@@ -108,12 +108,12 @@ export default function onClickOutsideHOC(WrappedComponent, config) {
         }
       }
 
-      this.componentNode = findDOMNode(this.getInstance());
+    //  this.componentNode = findDOMNode(this.getInstance());
       this.enableOnClickOutside();
     }
 
     componentDidUpdate() {
-      this.componentNode = findDOMNode(this.getInstance());
+   //   this.componentNode = findDOMNode(this.getInstance());
     }
 
     /**
